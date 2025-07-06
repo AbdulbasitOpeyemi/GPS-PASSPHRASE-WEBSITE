@@ -1,0 +1,72 @@
+          /* Reset default browser styles for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        } 
+                /** project body **/
+
+        body {
+            background: linear-gradient(to right, rgba(2, 0, 0, 1) 40%, rgba(24, 110, 180, 1) 60%);
+            color: white;
+            max-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            font-family: alef;
+            justify-content: center;
+        }
+
+                /** All coloured paraphrase text**/
+        span{
+            color: #5CF3FA;
+        }
+
+                 /** top navigation bar**/
+        .navbar{ 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            color: white;
+            padding: 0.6rem 5rem 0.4rem 5rem;
+            margin-bottom: 0;
+            border-bottom: 0;
+       }
+                /** navigation bar icon styling**/
+       .nav-icon{color: rgba(88, 231, 238, 0.7)
+        }
+
+                /** company logo**/
+       .logo{
+            
+            font-weight: bold;
+            border: 0;
+            margin: 0;
+            font-size: 0.7em;
+            align-items: center;
+            color: #DFDFDF;
+        }
+            /** hero section container also serves as line break **/
+             .hero-section{
+
+            padding: 0 5%;
+            height: 35vh;
+            width: 100vw;
+            border-top:0.5px solid rgb(150, 133, 133);
+            position: relative;
+            align-items: center;
+            display: flex;
+        
+        }
+        /** left side hero contents**/
+
+        .hero-content{
+            padding:  0 4rem 0 0;
+            margin: 0;
+            font-size: 1.8em;
+            width: 55vw;
+            height: 50%;
+            font-weight: 200;
+
+        }

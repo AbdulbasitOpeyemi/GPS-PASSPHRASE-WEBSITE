@@ -1,0 +1,259 @@
+                 /* Reset default browser styles for consistency */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        } 
+                /** project body **/
+
+        body {
+            background:#000000;
+            color: white;
+            max-height: 100vh;
+            position: relative;
+            overflow-x: hidden;
+            font-family: alef;
+            justify-content: center;
+        }
+
+                /** All coloured paraphrase text**/
+        span{
+            color: #5CF3FA;
+        }
+
+                 /** top navigation bar**/
+        .navbar{ 
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            color: white;
+            padding: 0.6rem 5rem 0.4rem 5rem;
+            margin-bottom: 0;
+            border-bottom: 0;
+       }
+                /** navigation bar icon styling**/
+       .nav-icon{color: rgba(88, 231, 238, 0.7)
+        }
+
+                /** company logo**/
+       .logo{
+            
+            font-weight: bold;
+            border: 0;
+            margin: 0;
+            font-size: 0.7em;
+            align-items: center;
+            color: #DFDFDF;
+        }
+            /** hero section container also serves as line break **/
+
+        .hero-section{
+            background-color: black;
+            background-blend-mode: multiply;
+            padding: 0 5%;
+            height: 35vh;
+            width: 100vw;
+            border-top:0.5px solid rgb(150, 133, 133);
+            position: relative;
+            align-items: center;
+            display: flex;
+        
+        }
+        /** left side hero contents**/
+
+        .hero-content{
+            padding:  0 4rem 0 0;
+            margin: 0;
+            font-size: 1.8em;
+            width: 55vw;
+            height: 50%;
+            font-weight: 200;
+
+        }
+
+        /** call to action statement **/
+        
+        .cta-section{
+            padding-top: 1em;
+            font-size: small;
+            text-align: left;
+            width: 50vw;
+            justify-content: left;
+            margin: 0;
+            display: block;
+           
+        }
+        /* Right side image container **/
+        .hero-image {
+           width: 100vw;
+           padding-right: o;
+           margin-right: 0;
+           height: 34vh;
+           background-image: url("cyber\ shield.jpg");
+           background-repeat: no-repeat;
+           background-color: #000000;
+           background-position: right;
+           background-size: cover;
+           background-position-x: right;
+        }
+
+        /** image styling **/
+        .hero-image img {
+            width: 40vw;
+            height: 34vh;
+            margin: 0;
+            padding: 0;
+            object-fit: cover;
+            position: relative;
+        }
+        /** call to action button**/
+   
+    .ctabutton ul{
+        display: flex;
+        list-style: none;
+        gap: 250px;
+        width: 80%;
+        padding: 40px ;
+        height: inherit;
+        
+    }
+    /** button link styling**/
+    .explore{
+        color: black;
+        background-color: #5CF3FA;
+        text-decoration: none;
+        border: 0.5px solid #4cc7cd;
+        padding: 0 5%;
+        width: 30%;
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+
+     .signin{
+        color: #5CF3FA;
+        background-color: black;
+        text-decoration: none;
+        border: 0.5px solid #4cc7cd;
+        padding: 0 5%;
+        width: 30%;
+        text-align: center;
+        border-radius: 5px;
+        
+    }
+
+
+    /** button hoover **/
+     .explore:hover{
+        background-color:black;
+        color: #5CF3FA;
+    }
+    .signin:hover{
+        background-color: #5CF3FA;
+        color: #000000;
+    }
+
+        /** rating section**/
+        .section2{  
+        padding: 2% 5% 2% 5%;  
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        font-size: 0.55rem;
+        font-weight: lighter;
+
+         }
+
+         /** rating panel **/
+        .rating{
+        padding-top: 0; 
+        position: relative;
+        margin: 3%;
+        border-radius: 5cqh;
+        width: 95%;
+        background: linear-gradient(to right, rgba(99, 244, 253, 1) 10%,rgba(148, 242, 254,1) 20%, rgba(140, 242, 253, 1) 25%,rgba(197,240,255,1) 35%,rgba(186, 233, 246, 1) 45%,rgba(185, 232, 246, 1) 55%, rgba(177, 228, 240, 1)65%,rgba(160, 217, 229, 1) 75%, rgba(63, 140, 194, 1) 95%,rgba(32, 116, 183, 1) 100%);
+        background-blend-mode: multiply;
+;
+        height: 15vh;
+        color: aliceblue;
+        
+        }
+        .rating-content{
+            justify-content: center;
+            display: flex;
+            gap: 400px;
+            padding-top: 20px;
+            font-size: 2rem;
+            color: #1A202C;
+
+        }
+        /** four bricks, Lock icon and wordings styling **/
+         .lock{
+        display: inline-block;
+        width: 45vw;
+        padding:1%;
+        margin: 2%;
+        height: 17vh;
+        font-size: 0.7rem;
+        border: 0.5px solid #186EB4 ;
+        text-align: center;
+        }
+
+       /** vtr - call to registration panel **/
+        .ctr{
+            width: 100%;
+            border: solid red;
+            height: 15vh;
+            gap: 20vh;
+            background-color: #186EB4;
+        }
+
+        .ctr div{
+        display: inline-block;
+        width: 58vw;
+        margin: 2%;
+        border: solid red;
+        height: 8vh;
+        font-size: 1.3em;
+        border: 0.5px solid #186EB4 ;
+        text-align: center;
+        text-align: left;
+        justify-items: right;
+        }
+        /** right side content **/
+        .registers{
+        display: inline;
+        width: 60vw;
+        height: 30vh;
+        font-size: 1em;
+        border: solid red;
+        text-align: center;
+        align-content: center;
+        justify-content: center;
+        }
+
+        .register{
+            list-style: none;
+
+            width: 80%;
+            color: white;
+            border: red;
+        }
+
+        /** opy right footer **/
+        footer{
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+        }
+    
+        
+       
+   
+   
+
+   
+
+
