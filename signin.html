@@ -21,37 +21,56 @@
         <nav class="nav">
             <button><i class="fa-solid fa-bars-staggered"></i></button>
         </nav>
+        <!--static navigation bar divider line-->
         <hr class="divider">
     </div>
+         <!--contents container-->
     <div class="container">
+        <!-- signin forms section-->
         <div class="signin-section">
+            <!-- sign in  call to action label-->
             <div class="CTA">Sign In To Your Account</div>
+            <!-- form inputs styling -->
             <div class="form-style">
                 <form action="" method="post">
-                    <input type="email" name="email" id="email" placeholder="Email"><label class="input-icon"><i class="fas fa-envelope"></i></label>
+                    <label for=" email"class="input-icon">Enter Email Address <i class="fas fa-envelope"></i></label>
+                    <input type="email" name="email" id="email" placeholder="Email">
                 </form>
                  <form action="" method="post">
-                    <input type="password" name="password" id="password" placeholder="password"> <label class="input-icon"><i class="fa-solid fa-lock fa-xs"></i></label>
+                    <input type="password" name="password" id="password" placeholder="Password"> <label class="input-icon"><i class="fa-solid fa-lock fa-xs"></i></label>
+                    <!--password recover stying-->
                     <div class="recover">Forget password?</div>
                 </form>
-                <div class="signin-arrow">
-                    <h2>Sign In <h2 class="arrow"><i >ARW</i></span></h2></h2>
-                </div>
+                
             </div>
+            <!-- sign in Call to action and Animated arrow -->
+                <div class="signin-arrow">
+                    <div> <h2>Sign In</h2>
+                        <button class="btn">
+                            <i class="fas fa-arrow-right btn-arrow"></i>
+                        </button>
+                    </div>
+                </div>
                 <p class="or">or</p>
+                <!-- google sign in option-->
             <div class="google-signin">
 	    <ul>
-                <a href="www.google.com" class="google">
-                    <i class="fa-goggle "></i>Sign In With Google
+                <a href="google.com" class="google">
+                    <span class="google-icon">
+                        <span class="g-icon">G</span>
+                    </span>
+                    Sign In With Google
                 </a>
 	     </ul>
             </div>
 
         </div>
+        <!--empty space or logo section-->
         <div class="logo-section">
              <div class=""> </div>
         </div>
     </div>
+    <!--content footer-->
     <footer> GPS <span>PASSPHRASE</span> <br> © Copyright 2024. All rights reserved</footer>
 
 </body>

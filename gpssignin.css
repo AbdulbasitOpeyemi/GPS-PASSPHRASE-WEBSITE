@@ -31,13 +31,15 @@
             background-color: #000000;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
        }
-                /** navigation bar icon styling**/
+                /** navigation bar icon display**/
        .nav{
             float: right;
             margin-right: 82px;
             
             
         }
+            /** 3 bars navigation button styling**/
+        
         .nav button{
             border: none;
             color: rgba(88, 231, 238, 1);
@@ -58,12 +60,12 @@
             color: #DFDFDF;
             
         }
-
+        /** static navigation bar divider line**/
         .divider{
             border: none;
             border-top: 0.15em solid rgb(75, 72, 72);
         }
-
+        /**content container style**/
         .container{
             margin-top: 75px;
             box-sizing: border-box;
@@ -72,11 +74,12 @@
             width: 100%;
         }
 
-
+            /** signin forms section**/
         .signin-section{
             Width:50%;
             color: white;
         }
+        /* sign in  call to action label*/
 
         .CTA{
              margin: 40px 82px 0 82px;
@@ -88,30 +91,46 @@
              height: auto;
 
         }
+        /* empty space or logo section**/
          .logo-section{
             background-color: rgb(84, 244, 252);
             Width:50%;
             color: white;
             
         }
-        .form-style{
-
-        }
+        /** sign in form input styling **/
+        
         input{
             margin: 22px 82px 0px 82px;
             background-color: #000000;
             color: white;
-            border: grey solid 0.8px;
+            border: solid 0.8px;
             font-size: 16px;
-             line-height: 24px;
+            line-height: 24px;
             Width:449.797px;
             Height :48px;
             Border-Radius:8px;
         }
-       input :placeholder{
-            color: #000000;
+        ::placeholder{
+           padding: 12px 20px 12px 40px;
         
         }
+       
+        input[type=email]:focus {
+            border: #54F4FC solid;
+            outline: none;
+            padding: 12px 20px 12px 12px;
+       
+        }
+
+         input[type=password]:focus {
+            border: #54F4FC solid;
+            outline: none;
+
+       
+        }
+
+        /** password recover stying **/
         .recover{
             text-align: right;
             font-size: 16px;
@@ -123,30 +142,61 @@
         }
 
     
-        label{
-            color: #5CF3FA;
+        
             
+        
+        /** email and password icon styling */
+       
+
+        .form-style{
+            position: relative;
         }
         .input-icon{
-            margin: red solid;
+            position: absolute;
+            color: #54F4FC;
+            left: 95px;
         }
-
-        input:placeholder-shown {
-            color: #5CF3FA;
-        }
-
+       
+        /** sign in arrow section styling**/
         .signin-arrow{
             margin: 10px 82px 0px 82px;
-            Width:449.797px;
+            border: solid gold;
             font-size: 16px;
+            padding: 10px;
             font-weight: 400;
             line-height: 24px;
-            display: flex;
+            width:449.797px ;
+            height: 57px;
+            display: inline-block;
         }
 
-        .arrow{
-            margin-left : 300px;
-            color: #5CF3FA;
+        .btn{
+           
+            background-color: #54F4FC;
+            color: black;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            display: inline-block;
+            align-items: right;
+            
+            cursor: pointer;
+            margin-top: 0px;
+            
+        }
+         .btn i{
+            font-size: 20px;
+            color: #000;
+            
+            animation: move 1.5s ease-in infinite;
+        }
+        @keyframes move {
+           from {
+            margin-left: 15px
+        }
+        to{
+            margin-left: 0px
+        }
         }
 
         .or{
@@ -158,6 +208,17 @@
             line-height: 30px;
             width: 449.797px;
         }
+        .google-icon{
+            font-size: 25px;
+            font-weight: bold;
+            background: conic-gradient(from 0deg at 50% 50%, #4285F4 72deg, #34A853 144deg, #FBBC05 216deg, #EA4335 288deg);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+        .g-icon{
+            font-family: Arial, sans-serif;
+        }
 
       .google-signin{
         justify-content: center;
@@ -165,14 +226,14 @@
 	    margin: 30px 82px 0px 82px;
 	    font-size:24px;
         }
- .google-signin ul{
-	list-style: none;
-	font-weight: 700;
-	line-height: 24px;
-    height: 40px;
-	display: flex;
-	font-size: 16px;            
-	
+        .google-signin ul{
+	        list-style: none;
+	        font-weight: 700;
+	        line-height: 24px;
+            height: 40px;
+           align-items: center;
+	        display: flex;
+	        font-size: 16px;            
         }
 /** button link styling **/
 
@@ -184,7 +245,6 @@
         border: 0.03125em solid rgb(84, 244, 252);
         border-radius: 0.3125em;
         width:449.797px;
-
         text-align: center;
 }
 /** hover styling**/
@@ -192,9 +252,6 @@
         background-color:black;
         color: rgb(84, 244, 252);
         }
-
-
-
         /** copy right footer **/
         footer{
             padding: 15px;
