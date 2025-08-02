@@ -188,12 +188,19 @@
         color: aliceblue;
         
         }
-
+        .rating-container{
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          gap: 90px;
+        }
         .rating-value{
-            gap: 202px;
-            display: flex;
+            width: 210.226px;
             justify-content: center;
             color: #1A202C;
+        }
+        .rating-group{
+          width: 215.226px;
         }
 
         .rating-value h1{
@@ -351,24 +358,187 @@
             font-size: 15px;
         }
 
-        @media screen  and (max-width:600px) {
-        *{
-            width: fit-content;
-        }
-            body {
-            width: fit-content;
-             }
-            section{
-                width: fit-content;
-            height: fit-content;
-            }
-        }
+      @media only screen and (max-width: 780px) { 
+  /* Global Styles */ 
+  body {
+      align-content: center;
+      font-size: 36px; 
+    font-family: alef, Arial, sans-serif; 
+    width: 100%;
+  } 
+ 
+  /* Top Navigation Bar */ 
+  .top-bar { 
+     
+      padding: 10px;
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      width: 100%; 
+      justify-content: space-between; 
+      color: white;
+      z-index: 1000; 
+      background-color: #000000; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } 
+  .nav { 
+    float:right; 
+    margin-right: 0; 
+    text-align: center; 
+  } 
+  .nav button { 
+    font-size: 60px; 
+      margin-right: 40px;
+  } 
+  .logo { 
+    width: 700px;
+      font-weight: bold;
+   
+    margin-left: 40px; 
+    font-size: 66px; 
+  } 
+   .divider{ 
+            border: none; 
+       background: black;
+            border-top: 0.15em solid rgb(75, 72, 72); 
+        } 
+ 
+  /* Hero Section */ 
+  section { 
+    margin-top: 320px; 
     
-        
-       
-   
-   
-
-   
-
-
+    background-blend-mode: multiply; 
+    background-image:  url("cyber\ shield.jpg");
+      opacity: 0.7;
+    width: 100%; 
+    border: none; 
+    position: relative; 
+    background-repeat: no-repeat; 
+    background-position: center;
+      background-size: cover;
+    display: flex;
+  } 
+  .hero-content { 
+    padding-top: 20px; 
+    padding-left: 20px; 
+    font-size: 90px; 
+      font-weight: bold;
+    line-height: 170px; 
+    width: 100%;
+      margin-left: 40px;
+      margin-right: 40px;
+  } 
+  .cta-section { 
+    font-size: 50px;
+      font-weight: light;
+    line-height: 120px;
+      font-family: alef, sans;
+  } 
+  .ctabutton ul { 
+      margin-top: 80px;
+    flex-direction: column; 
+    width: 100%;
+    gap: 50px;
+        list-style: none; 
+        font-weight: 500; 
+        line-height: 80px;
+        display: flex; 
+        font-size: 60px; 
+      justify-content: center;
+         
+         
+    } 
+    /** button link styling **/ 
+    .explore{ 
+        color: white; 
+        background-color: rgba(84, 244, 252, 1); 
+        text-decoration: none; 
+        border: 0.03125em solid rgb(84, 244, 252); 
+        border-radius: 0.3125em; 
+        width: 100%; 
+        height: 120px;
+        text-align: center; 
+    } 
+ 
+     .signin{ 
+         width: 100%; 
+        height: 120px;
+        color: white; 
+        background-color: black; 
+         opacity: 0.5;
+        text-decoration: none; 
+        border: 0.03125em solid rgb(84, 244, 252); 
+        border-radius: 0.3125em;
+        text-align: center; 
+    } 
+ 
+ 
+    /** button hoover **/ 
+     .explore:hover{ 
+        background-color: rgba(0, 0, 0, 0.5); 
+        color: rgb(84, 244, 252); 
+    }
+           
+    .signin:hover{ 
+        background-color: rgb(84, 244, 252); 
+        color: #000000; 
+    } 
+ 
+  /* Rating Section */ 
+ 
+     
+           
+           
+  .rating-group{ 
+    flex-direction: column; 
+    display: block; 
+  } 
+  
+  .rating-value h1 { 
+    font-size: 40px; 
+    line-height: 50px; 
+  } 
+  .rating-value h3 { 
+    font-size: 18px; 
+    line-height: 24px; 
+  } 
+ 
+  /* Four Bricks Section */ 
+  .section-2 { 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    grid-template-columns: 1fr; 
+  } 
+ 
+  /* Call to Registration Panel */ 
+  .ctr { 
+    height: auto; 
+    padding: 20px; 
+  } 
+  .how-to { 
+    flex-direction: column; 
+    margin: 20px; 
+    height: auto; 
+  } 
+  .how-to h1 { 
+    font-size: 24px; 
+    line-height: 30px; 
+    width: 100%; 
+  } 
+  .registers h2 { 
+    font-size: 18px; 
+    line-height: 24px; 
+    width: 100%; 
+  } 
+  .register-button { 
+    margin: 20px 0; 
+  } 
+ 
+  /* Footer */ 
+  footer { 
+      justify-content: center;
+    padding: 20px; 
+    font-size: 14px; 
+    width: 100%; 
+  } 
+}
